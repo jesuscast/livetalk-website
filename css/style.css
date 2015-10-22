@@ -10,7 +10,7 @@
         - title Section -
         - Button -
         - margin spaces -
-        - Header Section -
+        - H/eader Section -
         - Top intro Section -
         - Services Section -
         - firstFeature Section -
@@ -109,7 +109,7 @@ h1,h2,h3,h4,h5,h6 {
     height: 1px;
     margin: auto;
     width: 150px;
-    background: #FF6863;
+    background: #4A90E2;
     margin-top: 20px;
 }
 hr{
@@ -118,11 +118,12 @@ hr{
 /* buttons */
 .btn-new{
     background: transparent;
-    border: 2px solid #FF6863;
+    border: 2px solid #255082;
+    // #4A90E2;
     display: inline-block;
     padding: 15px 30px;
     border-radius: 30px;
-    color: #FF6863;
+    color: #4A90E2;
     font-size: 14px;
     font-weight: 400;
     -webkit-transition: all .3s ease;
@@ -136,17 +137,20 @@ hr{
     white-space: nowrap;
 }
 .btn-new:hover,.btn-new:focus{
-    background: #FC453F;
+    background: #255082;
+    // #FC453F;
     color: #fff;
     text-decoration: none;
     outline: none;
 }
 .btn-bold{
-    background: #FF6863;
+    background: #4A90E2;
+    //#4A90E2;
     color: #fff;
 }
 .btn-bold:hover{
-    background: #FC453F;
+    background: #255082;
+    //#FC453F;
 }
 .light{
     font-weight: 400;
@@ -241,7 +245,7 @@ hr{
     outline: none;
 }
 .navbar-nav li.active a,.navbar-nav li a:hover {
-    color:#FF6863;
+    color:#4A90E2;
 }
 header .btn-new{
     padding: 8px 18px;
@@ -272,7 +276,7 @@ header .btn-new{
     font-size: 36px;
 }
 #intro h1 span{
-    color:#FF6863;
+    color:#4A90E2;
 }
 #intro p{
     margin-bottom: 60px;
@@ -325,7 +329,7 @@ header .btn-new{
     background: #774e9c;
 }
 .pink{
-    background: #FF6863;
+    background: #4A90E2;
 }
 .pink .number{
     background: #FC5653;
@@ -450,7 +454,7 @@ ul.feature-list li {
 }
 /*secondFeature --------------------------------------- */
 #secondFeature{
-    background: #FF6863;
+    background: #4A90E2;
     text-align: right;
     position: relative;
     height: 450px;
@@ -770,7 +774,7 @@ iframe,embed,object {
 }
 .thumb-overlay ul li a{
     font-size: 16px;
-    color:#FF6863;
+    color:#4A90E2;
     display: inline-block;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
@@ -837,7 +841,7 @@ ul.numbersList li:last-child{
     border: none;
 }
 ul.numbersList h4{
-    color: #FF6863;
+    color: #4A90E2;
     margin-bottom: 0px;
 }
 ul.numbersList span{
@@ -861,9 +865,9 @@ ul.numbersList span{
 .btn-app-download {
     padding: 15px 30px 15px 80px;
     position: relative;
-    border:2px solid #FF6863;
+    border:2px solid #4A90E2;
     display: inline-block;
-    color: #FF6863;
+    color: #4A90E2;
     margin: 5px;
     text-align: left;
     border-radius: 40px;
@@ -871,7 +875,8 @@ ul.numbersList span{
 .btn-app-download:hover,.btn-app-download:focus{
     color: #fff;
     outline: none;
-    background: #FC453F;
+    background: #255082;
+    // #FC453F;
 }
 .btn-app-download i {
     font-size: 40px;
@@ -926,7 +931,7 @@ ul.numbersList span{
     height:100px;
 }
 #plans .item .price p {
-    color: #FF6863;
+    color: #4A90E2;
     display: inline-block;
     font-weight: 700;
     font-size:70px;
@@ -964,7 +969,7 @@ ul.plans-list li {
     color: #fff;
 }
 #plans .popular{
-    background: #FF6863;
+    background: #4A90E2;
     color: #fff;
     transform: scale(1.1,1.1);
 }
@@ -1028,18 +1033,18 @@ ul.plans-list li {
 #contactForm input {
     background: transparent;
     border:none;
-    border-bottom: 2px solid #FF6863;
+    border-bottom: 2px solid #4A90E2;
     height: 40px;
     margin-bottom: 20px;
     padding: 10px;
     width: 100%;
-    color:#FF6863;
+    color:#4A90E2;
     outline: none;
 }
 #contactForm textarea {
     background: transparent;
     border:none;
-    border-bottom: 2px solid #FF6863;
+    border-bottom: 2px solid #4A90E2;
     height: 40px;
     max-height: 120px;
     resize: none;
@@ -1047,7 +1052,7 @@ ul.plans-list li {
     overflow: hidden;
     padding: 10px;
     width: 100%;
-    color:#FF6863;
+    color:#4A90E2;
     outline: none;
 }
 #contactForm .success,#contactForm .error {
@@ -1069,10 +1074,10 @@ footer p {
 footer p a {
     font-weight: 700;
     color: #fff;
-    color: #FF6863;
+    color: #4A90E2;
 }
 footer p a:hover {
-    color: #FF6863;
+    color: #4A90E2;
 }
 .circleSocial {
     padding: 0;
@@ -1098,9 +1103,9 @@ footer p a:hover {
     margin: 2px;
 }
 .circleSocial li a:hover,.circleSocial li a:focus {
-    border-color: #FF6863;
+    border-color: #4A90E2;
     outline: none;
-    color: #FF6863;
+    color: #4A90E2;
 }
 /* responsive style ----------------------------------------------------------------- */
 /* Large Devices, Wide Screens */
