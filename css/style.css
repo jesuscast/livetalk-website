@@ -285,6 +285,7 @@ header .btn-new{
 #services{
     background: #fff;
     padding: 150px 0px;
+    padding-bottom: 0px;
 }
 .servicesList{
     margin: 0px;
@@ -582,7 +583,7 @@ iframe,embed,object {
 }
 /* parallax ------------------------------------------------------- */
 .parallaxBg {
-    background: url(../images/bg.jpg) no-repeat center center fixed #444;
+    background: url(../images/background.jpg) no-repeat center center fixed #444;
     background-attachment: fixed !important;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
